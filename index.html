@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Psychic-Game</title>
+	<!-- Added link to the jQuery Library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<!-- Added a link to Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">	
+</head>
+<body>
+	<!-- Jumbotron for Title -->
+	<div class="jumbotron">
+		<h1 class="text-center">Psychic-Game</h1>
+		<h3 class="text-center">Guess what Computer is thinking in the given chances and win the Game!!</h3>
+	</div>
+	<div class="container">
+		<h3>Guess what letter I am thinking of</h3><br>
+		<div class="row">
+			<div class="col col-lg-3">
+				<h5>Wins: </h5>
+				<h5>Losses: </h5>
+				<h5>Guesses Left: </h5>
+				<h5>Your Guesses so far: </h5>
+			</div>
+			<div class="col col-lg-2">
+				<h5><span id="wins"></span></h5>
+				<h5><span id="losses"></span></h5>
+				<h5><span id="guessesLeft"></span></h5>
+				<h5><span id="gussesSoFar"></span></h5>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
